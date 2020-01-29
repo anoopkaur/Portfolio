@@ -1,9 +1,14 @@
 import React from "react";
 import Card from "../components/Card";
 
-import Blank from "../assets/images/blank.png";
-import BlankSecond from "../assets/images/blank2.jpg";
-import BlankThird from "../assets/images/placeholder.";
+import Recipe from "../assets/images/cartoon1.jpg";
+import Marriage from "../assets/images/Marriage.png";
+import Construction from "../assets/images/blank2.jpg";
+
+// import BlankThird from "../assets/images/placeholder.png";
+
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
 
 class Carousel extends React.Component {
   constructor(props) {
@@ -14,23 +19,23 @@ class Carousel extends React.Component {
           id: 0,
           title: "Recipe Finder App",
           subTitle: "Hundreds of recipes at your fingertips!",
-          imgSrc: Blank,
+          imgSrc: Recipe,
           link: "https://github.com/",
           selected: false
         },
         {
           id: 1,
-          title: "Fruit Machine",
-          subTitle: "Fruit machine game!",
-          imgSrc: BlankSecond,
+          title: "Marriage Website",
+          subTitle: "Bespoke wedding website",
+          imgSrc: Marriage,
           link: "https://github.com/",
           selected: false
         },
         {
           id: 2,
-          title: "Marriage Website",
-          subTitle: "Bespoke wedding website",
-          imgSrc: BlankThird,
+          title: "Under construction",
+          subTitle: "",
+          imgSrc: Construction,
           link: "https://github.com/",
           selected: false
         }
@@ -61,13 +66,13 @@ class Carousel extends React.Component {
     });
   };
 
-  // creates the card component for each of the items
+  // function which maps thru items and creates the card component for each of the items
   makeItems = items => {
     return items.map(item => {
       return (
         <Card
           item={item}
-          onClick={e => this.handleCardClick(item.id, e)}
+          click={e => this.handleCardClick(item.id, e)}
           key={item.id}
         />
       );
@@ -77,11 +82,11 @@ class Carousel extends React.Component {
   render() {
     return (
       <div>
-        {/* <Container fluid={true}>
+        <Container fluid={true}>
           <Row className="justify-content-around">
             {this.makeItems(this.state.items)}
           </Row>
-        </Container> */}
+        </Container>
       </div>
     );
   }

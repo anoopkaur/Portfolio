@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
+// import Carousel from "./components/Carousel";
 
 import "./App.css";
 class App extends React.Component {
