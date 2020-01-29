@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/anoopkaur/Portfolio/static/css/main.e000abaa.chunk.css",
+    "main.js": "/anoopkaur/Portfolio/static/js/main.05b8bb4b.chunk.js",
+    "main.js.map": "/anoopkaur/Portfolio/static/js/main.05b8bb4b.chunk.js.map",
+    "runtime-main.js": "/anoopkaur/Portfolio/static/js/runtime-main.4caba571.js",
+    "runtime-main.js.map": "/anoopkaur/Portfolio/static/js/runtime-main.4caba571.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/anoopkaur/Portfolio/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.83092833.chunk.js": "/anoopkaur/Portfolio/static/js/2.83092833.chunk.js",
+    "static/js/2.83092833.chunk.js.map": "/anoopkaur/Portfolio/static/js/2.83092833.chunk.js.map",
+    "index.html": "/anoopkaur/Portfolio/index.html",
+    "precache-manifest.db980fcf9b0cbd4caffead363463921c.js": "/anoopkaur/Portfolio/precache-manifest.db980fcf9b0cbd4caffead363463921c.js",
+    "service-worker.js": "/anoopkaur/Portfolio/service-worker.js",
+    "static/css/2.47e06e2e.chunk.css.map": "/anoopkaur/Portfolio/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.e000abaa.chunk.css.map": "/anoopkaur/Portfolio/static/css/main.e000abaa.chunk.css.map",
+    "static/js/2.83092833.chunk.js.LICENSE": "/anoopkaur/Portfolio/static/js/2.83092833.chunk.js.LICENSE",
+    "static/media/Marriage.png": "/anoopkaur/Portfolio/static/media/Marriage.d9c62910.png",
+    "static/media/blank2.jpg": "/anoopkaur/Portfolio/static/media/blank2.55e7d5d1.jpg",
+    "static/media/cartoon1.jpg": "/anoopkaur/Portfolio/static/media/cartoon1.06e3968e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4caba571.js",
+    "static/css/2.47e06e2e.chunk.css",
+    "static/js/2.83092833.chunk.js",
+    "static/css/main.e000abaa.chunk.css",
+    "static/js/main.05b8bb4b.chunk.js"
+  ]
+}
