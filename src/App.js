@@ -30,10 +30,19 @@ class App extends React.Component {
         title: "About me"
       },
       contact: {
-        title: "Let/'s talk"
+        title: "Contact me"
       }
     };
   }
+
+  handleSubmit = event => {
+    event.preventDefault();
+
+    // stops user from sending multiple emails at onee
+    this.setState({
+      disabled: true
+    });
+  };
 
   render() {
     return (
